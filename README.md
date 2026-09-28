@@ -4,9 +4,14 @@ A one-stop download and update channel for **Adobe Installer** — install and m
 
 ## Download
 
-Get the latest available package from [Releases](https://github.com/iboyshanto/Adobe-Installer/releases/latest). Each release lists the supported operating systems and architectures.
+Choose your download from [Releases](https://github.com/iboyshanto/Adobe-Installer/releases/latest):
 
-For macOS, unzip the download and move **Adobe Installer.app** into Applications. This initial release supports Apple Silicon Macs. The app is ad-hoc signed, not Apple-notarized.
+- **Windows x64:** [Download the 1.3.0 installer (.exe)](https://github.com/iboyshanto/Adobe-Installer/releases/download/v1.3.0/Adobe-Installer-win32-x64-1.3.0.exe). Run Setup and choose the installation folder. The installer provides Start menu and Desktop shortcuts.
+- **Apple Silicon macOS:** [Download the 1.3.0 app (.zip)](https://github.com/iboyshanto/Adobe-Installer/releases/download/v1.3.0/Adobe-Installer-darwin-arm64-1.3.0.zip).
+
+The Windows installer is not Authenticode code-signed. Automated and package integrity checks passed; native Windows installation and update testing is still pending. Intel Mac and native Windows ARM64 packages are not currently provided.
+
+For macOS, unzip the download and move **Adobe Installer.app** into Applications. The Mac package supports Apple Silicon Macs. The app is ad-hoc signed, not Apple-notarized.
 
 ## Features
 
